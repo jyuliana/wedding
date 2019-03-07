@@ -51,8 +51,8 @@ function the_breadcrumb(){
 	if(!is_home()){ 
 	   echo '<a href="'.site_url().'">главная</a>';
 		if(is_single()){ // page
-		the_category(', ');
-		echo " text; ";
+		// the_category(', ');
+		echo "<span> → </span>";
 		the_title();
 		}
 		elseif (is_page()) { // page
