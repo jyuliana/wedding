@@ -113,7 +113,7 @@ function the_breadcrumb(){
 	   if($pageNum>1)
 		  echo '<a href="'.site_url().'">Главная</a>';
 	   else
-		  echo '<li><i class="fa fa-home" aria-hidden="true"></li>'. esc_html__('Главная', 'wedding') .'</li>';
+		  echo '<li><i class="fa fa-home" aria-hidden="true">'. esc_html__('Главная', 'wedding') .'</li>';
 	}
 }
 		

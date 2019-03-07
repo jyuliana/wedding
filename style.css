@@ -428,6 +428,12 @@
     border: 1px solid #32373c;
 }
 
+/* breadcr */
+
+.breadcrumb_m li {
+	list-style-type: none;
+
+}
 
 
 
